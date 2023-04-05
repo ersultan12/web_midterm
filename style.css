@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+}
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 100px;
+
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+}
+
+.square{
+    width: 313.97px;
+    height: 41.31px;
+    border-radius: 12px;
+    padding: 11.31px, 13.97px, 6px, 14px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 0px 4px 20px rgba(196, 196, 196, 0.2);
+}
+h1{
+    font-size: 34px;
+    font-weight: 500;
+}
+.gray_text{
+    margin-top: 6.7px;
+    margin-bottom: 46.61px;
+    
+}
+.check_line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 11px;
+    font-size: 12px;
+}
+
+.login p{
+    margin-bottom: 6px;
+}
+.login .square{
+    margin-bottom: 17px;
+}
+.sign{
+    margin-bottom: 13px;
+    background-color: #EA454C;
+    color: #fff;
+}
+.signg{
+    background-color: #fff;
+}
+
+.signup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup a{
+    margin-top: 7px;
+    color: #EA454C;
+    text-decoration: none;
+}
